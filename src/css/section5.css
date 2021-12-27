@@ -1,0 +1,44 @@
+.section5 {
+	background-image: url("../img/section5.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: none;
+	
+}
+
+.contenedor-cont {
+	display: flex;
+
+	justify-content: center;
+
+
+	width: 22%;
+	margin: 0 auto;
+	margin-bottom: -10rem;
+
+}
+
+.contenedor-cont-mob {
+	display: none;
+}
+
+.img-sobre img {
+	height: 70%;
+}
+
+
+
+
+@media (max-width: 991px) {
+	.contenedor-cont {
+		display: none;
+	}
+
+	.contenedor-cont-mob {
+		display: flex;
+	}
+
+	.contenedor-cont-mob img {
+		width: 100%;
+	}
+}

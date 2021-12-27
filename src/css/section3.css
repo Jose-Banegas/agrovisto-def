@@ -1,0 +1,51 @@
+.section3 {
+	background-image: url("../img/section3.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: none;
+	
+}
+
+/* Desktop */
+
+.contenedor-ul-img {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.contenedor-ul-img img {
+	margin-bottom: 1.5rem;
+}
+
+.ricks-container {
+	background-color: rgba(255, 255, 255, .67);
+	padding: 4rem 0;
+}
+.contenedor-oscuro {
+	background-color: rgba(50, 50, 50, .67);
+}
+
+.sec3img {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Mobile */
+
+@media(max-width: 991px) {
+
+	.contenedor-ul-img img {
+		margin-bottom: 0;
+	}
+
+	.fuenteNegra {
+		text-align: center;
+		margin-top: 1.5rem;
+	}
+
+	.contenedor-ul-img {
+		height: auto;
+	}
+}

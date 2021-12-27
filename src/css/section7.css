@@ -1,0 +1,89 @@
+/* Desktop */
+
+.section7 {
+	background-image: url("../img/section7.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: none;
+	
+}
+
+
+.fondoOscuroTrans {
+	background-color: rgba(37, 75, 50, 0.7);
+	text-align: center;
+	padding: 2.5rem;
+	margin-bottom: 2rem;
+
+}
+
+.t-center {
+	text-align: center;
+	vertical-align: middle;
+	margin: 2rem auto;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	font-weight: bold;
+}
+
+.t-center img {
+	width: 1.5rem;
+
+	margin: 0 1rem;
+}
+
+.t-center span {
+	text-decoration: underline 3px var(--purpura);
+
+}
+.m-med {
+	margin-bottom: 1.5rem;
+}
+
+.no-m {
+	padding: 0;
+}
+
+.no-m li {
+	padding: 0;
+
+	margin-bottom: 1.5rem;
+}
+
+.no-m li img {
+	width: 3rem;
+	background-color: var(--verdeOscuro);
+	padding: 0.5rem;
+	border-radius: 30%;
+}
+
+.bottom-p {
+	font-size: 1.3rem;
+	line-height: 2.5rem;
+	text-align: right;
+	font-family: Raleway;
+	font-weight: 300;
+}
+
+/* Mobile */
+
+@media (max-width: 991px) {
+	.t-center {
+		margin-top: 2rem 0 !important;
+		
+	}
+	.no-d {
+		display: none;
+	}
+
+
+
+}
+
+@media (max-width: 467px) {
+	.t-center img {
+		display: none;
+	}
+
+
+}

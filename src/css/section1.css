@@ -1,0 +1,77 @@
+/* Desktop */
+
+.section1 {
+	background-image: url("../img/section1.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: none;
+	
+}
+
+.monitoreos {
+	background-color: var(--verdeOscuro);
+	border-radius: 0 20px 20px 0;
+	padding: 1.5rem;
+	display: flex;
+	justify-content: center;
+	font-family: Montserrat;
+	font-weight: 700;
+	box-shadow: 0px 5.92592px 5.92592px #99C23B;
+	position: relative;
+
+
+}
+
+.monitoreos-container h2 img {
+	width: 50px;
+	vertical-align: middle;
+}
+
+.hojarasca {
+	width: 70px;
+	position: absolute;
+	top: -5px;
+	right: -35px;
+}
+
+.fluid-monitoreo {
+	margin-top: 1rem;
+	background-color: var(--verde);
+	padding: 1.5rem 0;
+}
+
+.ticks-container {
+	background-color: rgba(255, 255, 255, .67);
+	padding: 2.5rem 0;
+	border-radius: 0 0 20px 20px;
+}
+
+.ule {
+	color: #000000;
+	margin-bottom: 0;
+}
+
+.ulex {
+	color: black; 
+	margin-bottom: 0;
+	padding: 0;
+}
+
+
+
+/* Mobile */
+
+@media (max-width: 991px) {
+
+	.ticks-container {
+		padding: 2rem 0;
+		border-radius: 0;
+	}
+	.ule {
+		text-align: center;
+	}
+
+	.monitoreos {
+		margin-top: 1rem;
+	}
+}

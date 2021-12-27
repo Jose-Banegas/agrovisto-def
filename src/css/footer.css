@@ -1,0 +1,46 @@
+footer {
+	
+	background-color: #050033; 
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+
+	
+}
+
+.footer-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.footer-container p {
+	font-size: 18px;
+	color: #426184;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.footer-container p img {
+	vertical-align: middle;
+}
+
+.footer-container p span {
+	color: #ffffff;
+}
+
+
+@media(max-width: 1023px) {
+	footer {
+	
+	height: 70px;
+	
+}
+
+	
+}
+
