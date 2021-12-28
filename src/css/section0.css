@@ -6,6 +6,8 @@
 	background-position: center;
 	background-repeat: none;
 
+	padding-bottom: 60px;
+
 }
 
 
@@ -26,10 +28,11 @@
 }
 
 .h2-main {
-	
+		
 	text-shadow: -3px 3px 4px #000000;
 	font-weight: 500;
 	line-height: 3rem;
+	padding: 5px 0;
 
 	
 }
@@ -51,7 +54,7 @@
 	color: #ffffff;
 	width: 100%;
 	padding: 0.5rem;
-	margin-top: 3rem;
+	margin-top: 2rem;
 	font-weight: bold;
 	border: 2px solid var(--verdeManzana);
 	border-radius: 20px;
@@ -66,6 +69,33 @@
 .button-main:hover {
 	background-color: var(--verdeOscuro);
 	font-weight: bold;
+}
+
+@media (max-width: 1439px) {
+	.h1-main {
+		font-size: 3.2rem;
+	}
+	.h2-main {
+		font-size: 1.7rem;
+	}
+
+	.button-main {
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 1365px) {
+
+	.h1-main {
+		font-size: 2.7rem;
+	}
+	.h2-main {
+		padding: 0;
+	}
+
+
+
+	
 }
 
 /* Mobile */
@@ -102,6 +132,7 @@
 		font-size: 2rem;
 		text-align: center;
 		text-shadow: none;
+
 	}
 	.button-cont {
 		display: flex;
